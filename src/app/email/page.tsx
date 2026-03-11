@@ -40,10 +40,11 @@ export default function EmailPage() {
             {submitted ? (
               <div className="mt-6">
                 <Flag
-                  variant="success"
+                  color="green"
                   title="You're subscribed!"
-                  description={`We'll send updates to ${email}.`}
-                />
+                >
+                  {`We'll send updates to ${email}.`}
+                </Flag>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">
