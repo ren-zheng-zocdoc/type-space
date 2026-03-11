@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "vibezz"
+  ],
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:vibezz.zocdoc.net)"
+    ]
+  }
+}
